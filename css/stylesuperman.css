@@ -1,17 +1,25 @@
 @charset "UTF-8";
 
-body{
-    height: 97vh;
-    background-image: url(../imagens/superman-fundo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+* { font-family: Arial, Helvetica, sans-serif; text-align: justify;}
 
+body{
+    background-image: linear-gradient(to right, #0000ff,#0000ffb4,#0000ff7c,#0000ff49,#ff000042,#ff00006c,#ff0000a9,#db0101);
 }
 
-header img{ width: 80%; display: block; margin: 10px auto;}
+header img{ width: 100%; display: block; margin: 10px auto;}
 
-div nav ul li {display: inline-block; margin: auto;}
+div nav {}
+div nav ul li {display: inline-block; padding: 10px; border-radius: 10px;}
+div nav ul li > a { padding: 10px; color: white; font-weight: bold; font-size:1.1em;}
 
-main{ max-width: 900px; margin: 20px auto; background-color: white; padding: 10px;width: 80vh;}
+
+div nav ul li:hover{ background-color: goldenrod;}
+
+main{ max-width: 800px; margin: 0 auto; background-color: white; padding: 10px;width: 90%;}
+
+.main0 { margin-top: -10px; }
+.main0 > h1 { color: #0000ff; text-shadow: 3px 3px 2px #db0101; text-align: center; font-size: 3em;}
+.main0 > h2 { font-size: 2em; text-align: center;}
+.main0 > img { width: 70%; display: block; margin: auto;}
+
+p {text-indent: 30px; padding: 10px;}
