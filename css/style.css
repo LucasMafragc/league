@@ -75,5 +75,5 @@ button a{ color:white}
 button:hover{ background-color: greenyellow; transition: 1.5s;}
 button:hover > a { color: #5e129c; font-size: larger; transition: 1.5s;}
 
-p{ text-indent: 30px; margin: 10px;}
+p{ text-indent: 30px; margin: 10px; font-size: 1.1em;}
 
