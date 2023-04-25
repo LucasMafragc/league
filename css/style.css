@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right, blue,rgba(0, 0, 255, 0.705),rgba(0, 0, 255, 0.486),rgba(0, 0, 255, 0.288),rgba(255, 0, 0, 0.26),rgba(255, 0, 0, 0.425),rgba(255, 0, 0, 0.664),rgb(219, 1, 1));
+  background-image: linear-gradient(to right, #0000ff,#0000ffb4,#0000ff7c,#0000ff49,#ff000042,#ff00006c,#ff0000a9,#db0101);
 }
 
 header img{ width: 90%; display: block; margin: 5px auto;}
@@ -49,6 +49,7 @@ h1{ text-align: center;font-size: 3em; margin-bottom: 20px;}
 
 a {text-decoration: none;}
 
+.main0 {margin-top: 0;}
 .main1 {margin-left: 15px; margin-bottom: -50px; margin-top: 0;}
 .main2 {margin-right: 15px; margin-bottom: -50px;}
 .main3 {margin-left: 15px; margin-bottom: -50px;}
@@ -58,6 +59,7 @@ a {text-decoration: none;}
 .main7 {margin-left: 15px; margin-bottom: -50px;}
 .main8 {margin-right: 15px; margin-bottom: 20px}
 
+.main0 h1{ color: #d31b1b; text-shadow: 3px 3px 1px black; }
 .main1 h1{ color:blue; text-shadow: 3px 3px 1px red; }
 .main2 h1{ color: green; text-shadow: 3px 3px 1px red;}
 .main3 h1{ color: orange; text-shadow: 3px 3px 1px green;}
@@ -73,5 +75,5 @@ button a{ color:white}
 button:hover{ background-color: greenyellow; transition: 1.5s;}
 button:hover > a { color: #5e129c; font-size: larger; transition: 1.5s;}
 
-
+p{ text-indent: 30px; margin: 10px;}
 

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    height: 97vh;
+    background-image: url(../imagens/superman-fundo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header img{ width: 80%; display: block; margin: 10px auto;}
+
+div nav ul li {display: inline-block; margin: auto;}
+
+main{ max-width: 900px; margin: 20px auto; background-color: white; padding: 10px;width: 80vh;}
