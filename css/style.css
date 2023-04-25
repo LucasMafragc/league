@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+body{
+    background-image: linear-gradient(to right, blue,rgba(0, 0, 255, 0.705),rgba(0, 0, 255, 0.486),rgba(0, 0, 255, 0.288),rgba(255, 0, 0, 0.26),rgba(255, 0, 0, 0.425),rgba(255, 0, 0, 0.664),rgb(219, 1, 1));
+}
+
+header img{ width: 90%; display: block; margin: 5px auto;}
+
+div {max-width: 600px; margin: 10px auto;}
+
+div nav ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;}
+
+div nav ul li a {display:block;
+    text-decoration: none;
+    color: white;
+text-align: center; font-size: 1.4em; font-weight: bold;
+padding: 6px;}
+
+div nav ul li { display: inline-block; width: 130px;}
+div nav ul li a:hover{ background-color: rgb(13, 189, 13); display: block; text-decoration: underline; border-radius: 10px; transition: .6s;}
+
+div nav ul li:hover > ul.dropdown-content {
+    display:block; background-color: #239107; transition: 0.6s;}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    }
+  .dropdown-content li {
+    display: block;
+    }
+  .nav1 { margin:0 -6px; border-radius: 10px;}
+
+img { width: 40%; min-width: 270px; display: block; margin: 10px auto 10px auto;}
+
+main{ background-color: white; max-height: 900px; margin:50px auto 20px auto; border-radius: 10px; padding: 10px; width: 80%; height: 80%; box-shadow: 5px 5px 9px black;}
+
+h1{ text-align: center;font-size: 3em; margin-bottom: 20px;}
+
+a {text-decoration: none;}
+
+.main1 {margin-left: 15px; margin-bottom: -50px; margin-top: 0;}
+.main2 {margin-right: 15px; margin-bottom: -50px;}
+.main3 {margin-left: 15px; margin-bottom: -50px;}
+.main4 {margin-right: 15px; margin-bottom: -50px;}
+.main5 {margin-left: 15px; margin-bottom: -50px;}
+.main6 {margin-right: 15px; margin-bottom: -50px;}
+.main7 {margin-left: 15px; margin-bottom: -50px;}
+.main8 {margin-right: 15px; margin-bottom: 20px}
+
+.main1 h1{ color:blue; text-shadow: 3px 3px 1px red; }
+.main2 h1{ color: green; text-shadow: 3px 3px 1px red;}
+.main3 h1{ color: orange; text-shadow: 3px 3px 1px green;}
+.main4 h1{ color: red; text-shadow: 3px 3px 1px yellow;}
+.main5 h1{ color: rgb(128, 126, 126); text-shadow: 3px 3px 1px red;}
+.main6 h1{ color: firebrick; text-shadow: 3px 3px 1px blue;}
+.main7 h1{ color: black; text-shadow: 3px 3px 1px blue;}
+.main8 h1{ color: green; text-shadow: 3px 3px 1px black;}
+
+
+button{ background-color: #239107; padding: 10px; border-radius: 10px; width: 300px; display: block; text-align: center; margin: auto; font-weight: bold; font-size: larger;text-transform: uppercase;}
+button a{ color:white}
+button:hover{ background-color: greenyellow; transition: 1.5s;}
+button:hover > a { color: #5e129c; font-size: larger; transition: 1.5s;}
+
+
+
