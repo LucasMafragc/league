@@ -15,7 +15,7 @@ body{
 
 header img{ width: 100%; display: block; margin: 10px auto;}
 
-div nav {}
+
 div nav ul li {display: inline-block; padding: 10px; border-radius: 10px;}
 div nav ul li > a { padding: 10px; color: rgb(30, 10, 121); font-weight:700 ; font-size:1.1em; text-decoration: none; }
 div nav ul li:hover > a {text-decoration:underline rgb(255, 255, 255); color: white;}

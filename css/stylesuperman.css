@@ -8,7 +8,7 @@ body{
 
 header img{ width: 100%; display: block; margin: 10px auto;}
 
-div nav {}
+
 div nav ul li {display: inline-block; padding: 10px; border-radius: 10px;}
 div nav ul li > a { padding: 10px; color: white; font-weight: bold; font-size:1.1em; text-decoration: none;}
 
