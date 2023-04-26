@@ -3,11 +3,13 @@
 * { font-family: Arial, Helvetica, sans-serif; text-align: justify;}
 
 body{
+    height: 100hz;
     background-image:url(../imagens/superman\ sol.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
     background-attachment: fixed;
+
     
 }
 
