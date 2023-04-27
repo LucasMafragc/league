@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-* { font-family: Arial, Helvetica, sans-serif; text-align: justify;}
+* { font-family: Arial, Helvetica, sans-serif; text-align: justify;
+margin: 0;
+padding: 0;}
 
 body{
     background-image: linear-gradient(to right, #0000ff,#0000ffb4,#0000ff7c,#0000ff49,#ff000042,#ff00006c,#ff0000a9,#db0101);
@@ -8,19 +10,27 @@ body{
 
 header img{ width: 100%; display: block; margin: 10px auto;}
 
-
+div { width: 90%;}
 div nav ul li {display: inline-block; padding: 10px; border-radius: 10px;}
 div nav ul li > a { padding: 10px; color: white; font-weight: bold; font-size:1.1em; text-decoration: none;}
 
 
 div nav ul li:hover{ background-color: goldenrod;}
 
-main{ max-width: 800px; margin: 10px auto; background-color: white; padding: 10px;width: 90%; border-radius: 10px; box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.685);}
+div nav ul li ul li { display:block;}
+div nav ul li:hover ul li { display: block;}
 
-.main0 { margin-top: -10px; }
-.main0 > h1 { color: #0000ff; text-shadow: 3px 3px 2px #db0101; text-align: center; font-size: 3em;}
-.main0 > h2 { font-size: 2em; text-align: center;}
-.main0 > img { width: 70%; display: block; margin: auto;}
+.container {text-align: center; width:122px; position: absolute}
+.item { display:none;text-align: center; position: relative; top: 100%; left: -10px; background-color: goldenrod;}
+.container:hover .item {display: block;}
+
+
+main{ max-width: 800px; margin: 10px auto 20px auto; background-color: white; padding: 10px;width: 80%; border-radius: 10px; box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.685);}
+
+
+.main > h1 { color: #0000ff; text-shadow: 3px 3px 2px #db0101; text-align: center; font-size: 3em;}
+.main > h2 { font-size: 2em; text-align: center;}
+.main > img { width: 70%; display: block; margin: auto;}
 
 
 

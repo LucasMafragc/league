@@ -36,8 +36,8 @@ div nav ul li:hover > ul.dropdown-content {
     display: none;
     position: absolute;
     }
-  .dropdown-content li {
-    display: block;
+  .dropdown-content > li {
+    display: block; position: relative; top: 100%; left: 0;
     }
   .nav1 { margin:0 -6px; border-radius: 10px;}
 
