@@ -13,10 +13,14 @@ header img { width:100%; min-width: 250px;display: block; margin: 0 auto;}
 
 .material-symbols-outlined{
     text-align: center;width: 100%; text-decoration: none;
-    background-color: darkgray;margin: 0 auto; display: block; }
+    background-color: rgb(15, 15, 15);margin: 0 auto; display: block; color: white; }
+
 .submenu{position: absolute;left: 50%;; transform: translateX(-50%);display: none; width: 100%; margin-top: -4px;}
-nav ul li {background-color: aqua; height: 40px; text-align: center; line-height: 40px;}
-nav ul li a {display: block;}
+nav ul li {background-color: rgb(182, 6, 6); height: 40px; text-align: center; line-height: 40px;}
+nav ul li a {display: block; color: white; text-transform: uppercase;}
+
+nav ul li a:hover { background-color: red;color: yellow;}
+
 h1{ text-align: center;}
 main{
    max-width: 800px ; text-align: center; 
