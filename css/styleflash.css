@@ -9,10 +9,10 @@ p{text-align: center; padding: 15px;}
 body{background-image:linear-gradient( to right, red, rgba(255, 0, 0, 0.822), rgba(255, 0, 0, 0.589), rgba(255, 0, 0, 0.438), rgba(255, 255, 0, 0.486), rgba(255, 255, 0, 0.644), rgba(255, 255, 0, 0.842), yellow);}
 
 
-header img { width: 96.6vw; max-height: 250px;display: block; margin: 0 auto;}
+header img { width:100%; min-width: 250px;display: block; margin: 0 auto;}
 
 .material-symbols-outlined{
-    text-align: center;width: 96.6vw; text-decoration: none;
+    text-align: center;width: 100%; text-decoration: none;
     background-color: darkgray;margin: 0 auto; display: block; }
 .submenu{position: absolute;left: 50%;; transform: translateX(-50%);display: none; width: 100%; margin-top: -4px;}
 nav ul li {background-color: aqua; height: 40px; text-align: center; line-height: 40px;}
