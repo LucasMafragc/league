@@ -25,23 +25,39 @@ function fecharmenu(){
 }
 
 function ativarBackground(){
-    if( iconeBackground.innerHTML == 'toggle_off'){
-        iconeBackground.innerHTML = 'toggle_on'
-        textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
-        document.body.style.backgroundImage = "url('https://e1.pxfuel.com/desktop-wallpaper/483/645/desktop-wallpaper-the-flash-by-an0rak18-iphone-flash-comic.jpg')"
-
-    } else {
-        iconeBackground.innerHTML = 'toggle_off'
-        textoBackground.innerHTML = 'Para ligar a imagem de fundo click no botão abaixo'
-        document.body.style.background = ""
-    }
+    if(innerWidth <600){
+        if( iconeBackground.innerHTML == 'toggle_off'){
+            iconeBackground.innerHTML = 'toggle_on'
+            textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
+            document.body.style.backgroundImage = "url('https://e1.pxfuel.com/desktop-wallpaper/483/645/desktop-wallpaper-the-flash-by-an0rak18-iphone-flash-comic.jpg')"
     
+        } else {
+            iconeBackground.innerHTML = 'toggle_off'
+            textoBackground.innerHTML = 'Para ligar a imagem de fundo click no botão abaixo'
+            document.body.style.background = ""
+        }
+    }else{
+        if( iconeBackground.innerHTML == 'toggle_off'){
+            iconeBackground.innerHTML = 'toggle_on'
+            textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
+            document.body.style.backgroundImage = "url('https://images3.alphacoders.com/108/1082501.jpg')"
+    
+        } else {
+            iconeBackground.innerHTML = 'toggle_off'
+            textoBackground.innerHTML = 'Para ligar a imagem de fundo click no botão abaixo'
+            document.body.style.background = ""
+        }
+    }
 }
 
 function monitorar(){
     if(innerWidth > 600){
-        menuinicial.style.display = 'block'
+        menuinicial.style.display = 'block';
+        document.body.style.background = '';
+        iconeBackground.innerHTML = 'toggle_off';
     } else{
-        menuinicial.style.display = 'none'
+        menuinicial.style.display = 'none';
+        document.body.style.background = '';
+        iconeBackground.innerHTML = 'toggle_off';
     }
 }
