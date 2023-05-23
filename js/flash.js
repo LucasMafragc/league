@@ -5,18 +5,23 @@ const iconeBackground = document.querySelector('.iconeBackground')
 const textoBackground = document.querySelector('.textoBackground')
 
 function clicar(){
-    if(window.getComputedStyle(menuinicial).display ==='none'){
+    if(innerWidth <600){
+        if(window.getComputedStyle(menuinicial).display ==='none'){
         menuinicial.style.display = 'block'
     }else{
         menuinicial.style.display = 'none'
     }
-
+    }
 }
 
 function fecharmenu(){
-    if( window.getComputedStyle(menuinicial).display =='block'){
-       menuinicial.style.display = 'none'
+    if (innerWidth<600){
+        if( window.getComputedStyle(menuinicial).display =='block'){
+            menuinicial.style.display = 'none'
+         }
     }
+    
+    
 }
 
 function ativarBackground(){
@@ -31,4 +36,12 @@ function ativarBackground(){
         document.body.style.background = ""
     }
     
+}
+
+function monitorar(){
+    if(innerWidth > 600){
+        menuinicial.style.display = 'block'
+    } else{
+        menuinicial.style.display = 'none'
+    }
 }
