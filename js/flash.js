@@ -53,11 +53,8 @@ function ativarBackground(){
 function monitorar(){
     if(innerWidth > 600){
         menuinicial.style.display = 'block';
-        document.body.style.background = '';
-        iconeBackground.innerHTML = 'toggle_off';
     } else{
         menuinicial.style.display = 'none';
-        document.body.style.background = '';
-        iconeBackground.innerHTML = 'toggle_off';
+        
     }
 }
