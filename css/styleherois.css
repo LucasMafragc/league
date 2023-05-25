@@ -2,19 +2,72 @@
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;}
 
+body{
+    background-repeat: no-repeat;background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, blue,#0000ffd5,#0000ffad,#0000ff8e,#ff000088,#ff0000af,#ff0000d0,red);
+}
+
+    /*inicio do estilo do menu*/
+.backestilo{ background-color: black; color: white; text-align: center;}
+
 header p { padding: 15px;}
 header img { width: 100%; max-height: 350px;}
-
-.backestilo{ background-color: black; color: white; text-align: center;}
 
 i{cursor: pointer;}
 
 .hamburguer{background-color: black; list-style-type: none; text-align: center; margin-top: -4px;}
 .hamburguer>a { color: white;text-decoration: none; display: block;}
 
-.submenu{display:;background-color: rgb(29, 28, 28); text-align: center; position: absolute;left: 50%; transform: translateX(-50.1%); list-style-type: none; width: 100%;}
+.submenu{display:none;background-color: rgb(29, 28, 28); text-align: center; position: absolute;left: 50%; transform: translateX(-50.1%); list-style-type: none; width: 100%;}
+.submenu a {color:white; display: block;}
 nav ul li { height: 40px; line-height: 40px; text-transform: uppercase;}
 nav ul li a:hover { background-color: black;color: yellow;}
-.submenu a {color:white; display: block;}
+/*final do estilo do menu*/
 
-img{ width: 200px;}
+section{ background-color: white; width: 80%;max-width: 700px ;margin: 5px auto ; text-align: center; padding-bottom: 10px; border-radius: 10px;}
+.sectionleft{ margin: 5px 5px;}
+.sectionright{ margin: 5px 5px 5px auto;}
+
+button{ display: block; margin: 5px auto; height: 40px; width: 160px; cursor: pointer; font-size: 18px; background-color: rgb(2, 99, 2); border-radius: 20px; text-transform: uppercase; font-weight: bold;}
+button:hover{ background-color: rgb(128, 190, 35); transition: .6s;}
+button >a {display: block; height: 40px; line-height: 40px; text-decoration: none;color: white;}
+button a:hover{ color: black; transition: 0.6s;}
+
+main img{ width: 80%; min-width: 250px; max-width: 400px;}
+
+h1.primeira{color: blue; text-shadow: 2px 2px 1px red; font-size: 2.5em;}
+h1.segunda{color: green; text-shadow: 2px 2px 1px red; font-size: 2.5em;}
+h1.terceira{color: orange; text-shadow: 2px 2px 1px green; font-size: 2.5em;}
+h1.quarta{color: red; text-shadow: 2px 2px 1px yellow; font-size: 2.5em;}
+h1.quinta{color: darkgray; text-shadow: 2px 2px 1px red; font-size: 2.5em;}
+h1.sexta{color: crimson; text-shadow: 2px 2px 1px blue; font-size: 2.5em;}
+h1.setima{color: black; text-shadow: 2px 2px 1px blue; font-size: 2.5em;}
+h1.oitava{color: green; text-shadow: 2px 2px 1px black; font-size: 2.5em;}
+
+@media screen and (min-width:600px) {
+    
+    
+    header img { width: 100%; max-height: 300px; display: block;}
+
+    .hamburguer{display: none;}
+
+    .submenu{
+        display: block; position: relative ; margin-top: 10px; margin-bottom: 10px; background-color: transparent;
+    }
+    nav ul li{display: inline-block; background-color:rgb(44, 43, 43); border-radius: 10px;}
+
+    nav ul li:hover{ background-color: black;}
+
+    nav ul li a { margin: 0 10px; }
+    
+    p{margin: 10px auto; padding: 20px;}
+
+    
+
+
+
+    
+    
+}
