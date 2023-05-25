@@ -6,20 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liga da Justiça</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
-    <header><img src="imagens/liga da justica2000.jpg" alt="Liga da Justiça"></header>
+<body onresize="monitorar()">
+    <header >
+        <div class="backestilo">
+            <p class="textoBackground">Para ligar a imagem de fundo click no botão abaixo</p>
+            <i class="material-symbols-outlined iconeBackground" onclick="ativarBackground()">toggle_off</i>
+        </div>
+    
+            <img src="../imagens/liga da justica2000.jpg" alt="">
+       </header>
+        
+        <div class="hamburguer">
+            <a href="#"             class="material-symbols-outlined ahamburguer" onclick="abrirMenu()">menu</a>
+        </div>
+    
+       <nav>
+        <ul class="submenu">
+            <li><a href="#" id="">home</a></li>
+            <li><a href="herois/herois.html" id="">herois</a></li>
+            <li><a href="#" id="">viloes</a></li>
+            <li><a href="../index.html">Liga da Justiça</a></li>
+        </ul>
+       </nav>
 
-    <div>
-        <nav>
-            <ul>
-                <li class="nav1"><a href="#">INICIO</a></li>
-                <li class="nav1" onclick="clickherois()"><a href="herois/herois.html">HEROIS</a> </li>
-                <li class="nav1"><a href="#">VILÕES</a></li>
-            </ul>
-        </nav>
-    </div>
-   <main class="main0">
+
+   <main class="main0" onclick="fecharMenu()">
     <h1>Liga da Justiça</h1>
     <p>A origem da Liga da Justiça remonta à sua primeira aparição nas histórias em quadrinhos da DC Comics, em 1960. A equipe foi criada por Gardner Fox, um escritor prolífico de quadrinhos, e foi introduzida na edição #28 da revista "The Brave and the Bold", publicada em 1960.</p>
 
@@ -31,6 +44,6 @@
     <img src="imagens/LJA.jpg" alt="Fundadores da Liga da Justiça">
     </main>
    
-    <script src="liga.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
