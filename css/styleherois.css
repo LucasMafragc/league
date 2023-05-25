@@ -1,0 +1,20 @@
+*{ padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;}
+
+header p { padding: 15px;}
+header img { width: 100%; max-height: 350px;}
+
+.backestilo{ background-color: black; color: white; text-align: center;}
+
+i{cursor: pointer;}
+
+.hamburguer{background-color: black; list-style-type: none; text-align: center; margin-top: -4px;}
+.hamburguer>a { color: white;text-decoration: none; display: block;}
+
+.submenu{display:;background-color: rgb(29, 28, 28); text-align: center; position: absolute;left: 50%; transform: translateX(-50.1%); list-style-type: none; width: 100%;}
+nav ul li { height: 40px; line-height: 40px; text-transform: uppercase;}
+nav ul li a:hover { background-color: black;color: yellow;}
+.submenu a {color:white; display: block;}
+
+img{ width: 200px;}
