@@ -4,7 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: justify;
 }
 
 body{
@@ -41,7 +40,7 @@ h1{ text-align: center;font-size: 3em; margin-bottom: 20px; text-shadow: 2px 2px
 
 a {text-decoration: none;display: block; text-align: center;}
 
-p{ padding: 5px 10px; text-indent: 20px;}
+p{ padding: 5px 15px; text-indent: 20px;}
 
 
 

@@ -1,6 +1,8 @@
+@charset "UTF-8";
+
 *{ padding: 0;
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;}
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;}
 
 body{
     background-repeat: no-repeat;background-position: center center;
@@ -12,7 +14,7 @@ body{
     /*inicio do estilo do menu*/
 .backestilo{ background-color: black; color: white; text-align: center; margin-top: -10px;}
 
-header p { padding: 15px; margin-top: 10px;}
+header p { padding: 15px; text-align: center; margin-top: 10px;}
 header img { width: 100%; max-height: 350px;}
 
 i{cursor: pointer;}
@@ -46,6 +48,8 @@ h1.quinta{color: darkgray; text-shadow: 2px 2px 1px red; font-size: 2.5em;}
 h1.sexta{color: crimson; text-shadow: 2px 2px 1px blue; font-size: 2.5em;}
 h1.setima{color: black; text-shadow: 2px 2px 1px blue; font-size: 2.5em;}
 h1.oitava{color: green; text-shadow: 2px 2px 1px black; font-size: 2.5em;}
+
+p{ padding: 5px 15px; text-indent: 15px;}
 
 @media screen and (min-width:600px) {
     
