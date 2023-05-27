@@ -31,7 +31,7 @@ main{
    max-width: 800px ; text-align: center; 
     background-color: white; width: 80%; margin: 5px auto; border-radius: 10px;
 }
-main img { width: 60%; min-width: 300px; padding-bottom: 10px;}
+main img { width: 80%; min-width: 200px; padding-bottom: 10px; max-width: 300px;}
 
 /* configuração do menu de alterar background na parte superior do site*/
 .backestilo{ background-color: black; color: white;text-align: center;}
