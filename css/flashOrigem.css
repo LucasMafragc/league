@@ -28,7 +28,7 @@
     
     h1{ text-align: center; font-size: 2.5em; text-shadow: 2px 2px 1px  rgba(255, 0, 0, 0.616);}
     h2{ font-size: 2em; padding-top: 10px; text-shadow: 2px 2px 1px rgba(255, 0, 0, 0.733);}
-    body p{padding: 5px 15px; text-indent: 20px; }
+    main p{padding: 5px 15px; text-indent: 20px; }
 
     main{
        max-width: 800px ; text-align: center; width: 80%; margin: 5px auto; border-radius: 10px;
@@ -40,6 +40,7 @@
     /* configuração do menu de alterar background na parte superior do site*/
     .backestilo{ background-color: black; color: white;text-align: center;}
     i{ background-color: black; color: white;cursor: pointer; }
+   
     
     @media screen and (min-width:600px) {
         
