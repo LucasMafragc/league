@@ -29,13 +29,17 @@ nav ul li a:hover { background-color: red;color: yellow;}
 h1{ text-align: center; font-size: 3em; text-shadow: 2px 2px 1px  rgba(255, 0, 0, 0.616);}
 main{
    max-width: 800px ; text-align: center; 
-    background-color: white; width: 80%; margin: 5px auto; border-radius: 10px;
+    background-color: ; width: 80%; margin: 5px auto; border-radius: 10px;
 }
 main img { width: 80%; min-width: 200px; padding-bottom: 10px; max-width: 300px;}
 
 /* configuração do menu de alterar background na parte superior do site*/
 .backestilo{ background-color: black; color: white;text-align: center;}
 i{ background-color: black; color: white;cursor: pointer; }
+
+section { margin-bottom: 20px; background-color: white; border-radius: 10px;}
+section h2{ font-size: 2em; text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.575);}
+
 
 @media screen and (min-width:600px) {
     
