@@ -29,7 +29,7 @@ function ativarBackground(){
         if( iconeBackground.innerHTML == 'toggle_off'){
             iconeBackground.innerHTML = 'toggle_on'
             textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
-            document.body.style.backgroundImage = "url('https://e1.pxfuel.com/desktop-wallpaper/483/645/desktop-wallpaper-the-flash-by-an0rak18-iphone-flash-comic.jpg')"
+            document.body.style.backgroundImage = "url('../imagens/superman sol.jpg')"
     
         } else {
             iconeBackground.innerHTML = 'toggle_off'
@@ -40,7 +40,7 @@ function ativarBackground(){
         if( iconeBackground.innerHTML == 'toggle_off'){
             iconeBackground.innerHTML = 'toggle_on'
             textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
-            document.body.style.backgroundImage = "url('https://images3.alphacoders.com/108/1082501.jpg')"
+            document.body.style.backgroundImage = "url('../imagens/superman sol.jpg')"
     
         } else {
             iconeBackground.innerHTML = 'toggle_off'
