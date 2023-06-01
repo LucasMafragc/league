@@ -7,39 +7,47 @@
     <title>Superman</title>
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/stylesuperman.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body> 
-    <header><img src="../imagens/cabeça2000.jpg" alt=""></header>
+<body onresize="monitorar()"> 
+    <header >
+        <div class="backestilo">
+            <p class="textoBackground">Para ligar a imagem de fundo click no botão abaixo</p>
+            <i class="material-symbols-outlined iconeBackground" onclick="ativarBackground()">toggle_off</i>
+        </div>
+    
+            <img src="../imagens/cabeça2000.jpg" alt="">
+       </header>
+        
+        <div class="hamburguer">
+            <a href="#"             class="material-symbols-outlined ahamburguer" onclick="clicar()">menu</a>
+        </div>
+    
+       <nav>
+        <ul class="submenu">
+            <li><a href="#" id="">home</a></li>
+            <li><a href="SPM-poderes.html" id="">Poderes</a></li>
+            <li><a href="#" id="">viloes</a></li>
+            <li><a href="../index.html">Liga da Justiça</a></li>
+        </ul>
+       </nav>
 
-    <div>
-        <nav> 
-            <ul> 
-                <li><a href="#">Inicio</a></li>
-                <li><a href="SPM-poderes.html">Poderes</a></li>
-                <li><a href="">Vilões</a></li>
-                <li><a href="">Afiliações</a>
-                    <ul class="container">
-                        <li class="item"><a href="../index.html">Liga da Justiça</a></li>
-                        <li class="item"><a href="">Legião</a></li>
-                    </ul></li>
-            </ul>
-
-        </nav>
-    </div>
-    <main class="main">
+    <main class="main" onclick="fecharmenu()">
         <h1>Superman</h1>
         <h2>Historia</h2>
         <p>A história do Superman começa no planeta Krypton, uma sociedade avançada tecnologicamente, mas que está à beira da destruição. Jor-El, um cientista kryptoniano, descobre que o planeta está condenado devido à instabilidade de seu núcleo. Ele tenta alertar o Conselho Científico de Krypton, mas é ignorado. Determinado a salvar seu filho ainda não nascido, Kal-El, Jor-El constrói uma nave espacial e coloca seu filho nela, enviando-o para a Terra pouco antes da destruição de Krypton.</p>
 
-    <p>A nave de Kal-El chega à Terra e aterrissa em Smallville, uma pequena cidade rural no Kansas, onde é encontrado pelo casal de fazendeiros Jonathan e Martha Kent. Eles adotam o bebê e o chamam de Clark Kent. Logo eles percebem que Clark tem habilidades extraordinárias, como força sobre-humana, velocidade, visão de calor e a capacidade de voar.</p>
+        <p>A nave de Kal-El chega à Terra e aterrissa em Smallville, uma pequena cidade rural no Kansas, onde é encontrado pelo casal de fazendeiros Jonathan e Martha Kent. Eles adotam o bebê e o chamam de Clark Kent. Logo eles percebem que Clark tem habilidades extraordinárias, como força sobre-humana, velocidade, visão de calor e a capacidade de voar.</p>
 
-    <p>Os Kents ensinam a Clark a usar seus poderes com responsabilidade e ajudar os outros. À medida que Clark cresce, ele descobre que sua verdadeira origem é de outro planeta e que seus poderes são resultado da gravidade mais fraca da Terra e do sol amarelo, que é diferente do sol vermelho de Krypton. Ele decide usar seus poderes para proteger os inocentes e combater o crime, adotando a identidade secreta de Superman.</p>
+        <p>Os Kents ensinam a Clark a usar seus poderes com responsabilidade e ajudar os outros. À medida que Clark cresce, ele descobre que sua verdadeira origem é de outro planeta e que seus poderes são resultado da gravidade mais fraca da Terra e do sol amarelo, que é diferente do sol vermelho de Krypton. Ele decide usar seus poderes para proteger os inocentes e combater o crime, adotando a identidade secreta de Superman.</p>
 
-    <p>Como Superman, Clark Kent se muda para Metrópolis, a grande cidade fictícia dos Estados Unidos, onde trabalha como repórter no jornal Daily Planet, disfarçando-se de um homem comum e tímido. Ele também se apaixona por Lois Lane, uma colega de trabalho, e estabelece amizades com outros personagens como Jimmy Olsen, Perry White e sua amiga de infância, Lana Lang.</p>
+        <p>Como Superman, Clark Kent se muda para Metrópolis, a grande cidade fictícia dos Estados Unidos, onde trabalha como repórter no jornal Daily Planet, disfarçando-se de um homem comum e tímido. Ele também se apaixona por Lois Lane, uma colega de trabalho, e estabelece amizades com outros personagens como Jimmy Olsen, Perry White e sua amiga de infância, Lana Lang.</p>
 
-    <p>Superman se torna um símbolo de esperança e justiça, lutando contra vilões como Lex Luthor, seu arqui-inimigo, e outros adversários poderosos, como Brainiac, Darkseid, Doomsday e General Zod. Ele também é membro fundador da Liga da Justiça, um grupo de super-heróis que se unem para proteger o universo de ameaças cósmicas.</p>
-    <img src="../imagens/superman52.jpg" alt="Superman new52">
+        <p>Superman se torna um símbolo de esperança e justiça, lutando contra vilões como Lex Luthor, seu arqui-inimigo, e outros adversários poderosos, como Brainiac, Darkseid, Doomsday e General Zod. Ele também é membro fundador da Liga da Justiça, um grupo de super-heróis que se unem para proteger o universo de ameaças cósmicas.</p>
+        <img src="../imagens/superman52.jpg" alt="Superman new52">
     </main>
+
+    <script src="../js/superman.js"></script>
     
 </body>
 </html>

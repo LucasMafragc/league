@@ -1,29 +1,33 @@
 @charset "UTF-8";
 
-* { font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-padding: 0;}
+* { font-family: Arial, Helvetica, sans-serif; padding: 0; margin: 0;}
 
-body{
-    background-image: linear-gradient(to right, #0000ff,#0000ffb4,#0000ff7c,#0000ff49,#ff000042,#ff00006c,#ff0000a9,#db0101);
+body{background-image:linear-gradient(to right, rgb(3, 3, 189), rgba(0, 0, 255, 0.76),rgba(0, 0, 255, 0.596),rgba(0, 0, 255, 0.336),rgba(255, 0, 0, 0.274),rgba(255, 0, 0, 0.527),rgba(255, 0, 0, 0.76),rgb(185, 2, 2));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    
 }
-
-header img{ width: 100%; display: block; margin: 10px auto;}
-
-div { width: 90%;}
-div nav ul li {display: inline-block; padding: 10px; border-radius: 10px;}
-div nav ul li > a { padding: 10px; color: white; font-weight: bold; font-size:1.1em; text-decoration: none;}
+ /* configuração do menu de alterar background na parte superior do site*/
+ .backestilo{ background-color: black; color: white;text-align: center;}
+ i{ background-color: black; color: white;cursor: pointer; }
 
 
-div nav ul li:hover{ background-color: goldenrod;}
-
-div nav ul li ul li { display:block;}
-div nav ul li:hover ul li { display: block;}
-
-.container {text-align: center; width:122px; position: absolute}
-.item { display:none;text-align: center; position: relative; top: 100%; left: -10px; background-color: goldenrod;}
-.container:hover .item {display: block;}
-
+header img { width:100%; max-height: 250px;display: block; margin: 0 auto;}
+header p { padding-top: 15px; text-align: center ;}
+    
+.hamburguer a{
+    text-align: center;width: 100%; text-decoration: none;
+    background-color: rgb(15, 15, 15);margin: 0 auto; display: block; color: white;}
+    
+    /* configurações de imagem do submenu */
+.submenu{position: absolute;left: 50%;; transform: translateX(-50%);display: none; width: 100%; margin-top: -4px;}
+nav ul li {background-color:rgb(3, 3, 143); height: 40px; text-align: center; line-height: 40px;}
+nav ul li a {display: block; color: white; text-transform: uppercase; font-weight: 700;}
+    
+nav ul li a:hover { background-color: blue; color: yellow;}
 
 main{ max-width: 800px; margin: 10px auto 20px auto; background-color: white; padding: 10px;width: 80%; border-radius: 10px; box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.685);}
 
@@ -32,8 +36,37 @@ main{ max-width: 800px; margin: 10px auto 20px auto; background-color: white; pa
 .main > h2 { font-size: 2em; text-align: center; padding: 10px;}
 .main > img { width: 70%; display: block; margin: auto;}
 
-p {text-indent: 30px; padding: 10px; font-size: 1.1em; line-height: 1.5; text-align: center;}
+p{text-align: center; padding: 15px;}
 
+
+
+@media screen and (min-width:600px) {
+    
+    
+    header img { width: 100%; max-height: 300px; display: block;}
+
+    .hamburguer{display: none;}
+
+    .submenu{
+        display: block; position: relative ; margin-top: 10px; margin-bottom: 10px; text-align: center;
+    }
+    nav ul li{display: inline-block;}
+
+    nav ul li:hover{ background-color: blue;}
+
+    nav ul li a { margin: 0 10px; }
+
+    article{
+        width: 80%; max-width: 800px; 
+    }
+    
+    p{margin: 10px auto; padding: 20px;}
+
+    .backestilo{ margin-top: -10px;}
+
+    
+    
+}
 
 
 
