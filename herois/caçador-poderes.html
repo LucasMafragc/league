@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/cacador-poderes.css">
     <title>Poderes do Caçador</title>
 </head>
-<body>
+<body onresize="monitorar()">
     <header >
         <div class="backestilo">
             <p class="textoBackground">Para ligar a imagem de fundo click no botão abaixo</p>
@@ -24,14 +24,14 @@
     
     <nav>
         <ul class="submenu">
-            <li><a href="#" id="">home</a></li>
+            <li><a href="../herois/cacador.html" id="">home</a></li>
             <li><a href="#" id="">Poderes</a></li>
             <li><a href="#" id="">viloes</a></li>
             <li><a href="../index.html">Liga da Justiça</a></li>
         </ul>
     </nav>
 
-    <main>
+    <main onclick="fecharmenu()">
 
         <h1>Poderes Do Marciano</h1>
         <p>O Caçador de Marte possui vários poderes, e abaixo estão citados alguns dos mais conhecidos.</p>
@@ -58,5 +58,6 @@
         <p>Telepatia: J'onn J'onzz é um poderoso telepata. Ele pode ler mentes, projetar seus pensamentos na mente de outras pessoas, controlar mentes e se comunicar telepaticamente com outros seres.</p>
     </main>
     
+    <script src="../js/cacador.js"></script>
 </body>
 </html>

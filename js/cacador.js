@@ -29,7 +29,7 @@ function ativarBackground(){
         if( iconeBackground.innerHTML == 'toggle_off'){
             iconeBackground.innerHTML = 'toggle_on'
             textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
-            document.body.style.backgroundImage = "url('../imagens/superman sol.jpg')"
+            document.body.style.backgroundImage = "url('../imagens/caçador-resistencia.jpg')"
     
         } else {
             iconeBackground.innerHTML = 'toggle_off'
@@ -40,7 +40,7 @@ function ativarBackground(){
         if( iconeBackground.innerHTML == 'toggle_off'){
             iconeBackground.innerHTML = 'toggle_on'
             textoBackground.innerHTML = 'Para desligar a imagem de fundo click no botão abaixo'
-            document.body.style.backgroundImage = "url('../imagens/superman sol.jpg')"
+            document.body.style.backgroundImage = "url('../imagens/caçador-resistencia.jpg')"
     
         } else {
             iconeBackground.innerHTML = 'toggle_off'
