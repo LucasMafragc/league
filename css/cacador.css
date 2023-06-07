@@ -35,6 +35,8 @@ main{
 main img {width: 90%; max-width: 400px; padding: 10px;}
 h1{color: darkgreen; text-shadow: 1px 2px 2px red; padding-bottom: 20px;}
 
+p{text-align: center; padding: 15px;}
+
 
     @media screen and (min-width:600px) {
     
@@ -58,6 +60,6 @@ h1{color: darkgreen; text-shadow: 1px 2px 2px red; padding-bottom: 20px;}
         
         .backestilo p{margin: 10px auto; padding: 20px;}
     
-        .backestilo{ margin-top: -10px;}
+        .backestilo{ margin-top: -15px;}
     
     }
