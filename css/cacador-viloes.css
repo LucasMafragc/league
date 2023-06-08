@@ -32,7 +32,7 @@ p{text-align: center; padding: 15px;}
 
      /* final do menu de navegação*/
 
-main img{ width: 60%; margin: 0 auto; display: block; padding-bottom: 20px;}
+main img{ width: 60%; margin: 0 auto; display: block; padding-bottom: 20px; max-width: 400px;}
 article{ width: 80%; background-color: white; margin: 10px auto; box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.568); border-radius: 10px;}
 
 h2{ text-align: center; padding-top: 10px;}
