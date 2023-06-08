@@ -35,7 +35,7 @@ p{text-align: center; padding: 15px;}
 main img{ width: 60%; margin: 0 auto; display: block; padding-bottom: 20px; max-width: 400px;}
 article{ width: 80%; background-color: white; margin: 10px auto; box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.568); border-radius: 10px;}
 
-h2{ text-align: center; padding-top: 10px;}
+h2{ text-align: center; padding-top: 10px; text-shadow: 2px 1px 0px rgba(255, 0, 0, 0.726); font-size: 2em;}
 
 .left{ margin-left: 10px;}
 .right{ margin-right: 10px;}
