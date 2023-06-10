@@ -23,10 +23,10 @@ header p { padding-top: 15px; text-align: center ;}
     background-color: rgb(15, 15, 15);margin: 0 auto; display: block; color: white;}
     
 .submenu{position: absolute;left: 50%;; transform: translateX(-50%);display: none; width: 100%; margin-top: -4px;}
-nav ul li {background-color:darkgreen; height: 40px; text-align: center; line-height: 40px;}
+nav ul li {background-color:rgb(172, 113, 5); height: 40px; text-align: center; line-height: 40px;}
 nav ul li a {display: block; color: white; text-transform: uppercase; font-weight: 700;}
     
-nav ul li a:hover { background-color: rgb(192, 4, 4); color: yellow;}
+nav ul li a:hover { background-color:orange; color: green;}
 
 p{text-align: center; padding: 15px;}
 
@@ -53,7 +53,7 @@ main img {width: 90%; max-width: 400px; padding: 10px;}
         }
     nav ul li{display: inline-block;}
     
-    nav ul li:hover{ background-color: blue;}
+    nav ul li:hover{ background-color: orange;}
     
     nav ul li a { margin: 0 10px; }
     
