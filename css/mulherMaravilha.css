@@ -2,7 +2,7 @@
 
 * { font-family: Arial, Helvetica, sans-serif; padding: 0; margin: 0;}
 
-body{background-image:linear-gradient(to right,orange,rgba(255, 166, 0, 0.788),rgba(255, 166, 0, 0.575),rgba(255, 166, 0, 0.363), rgba(2, 92, 2, 0.363), rgba(3, 107, 3, 0.671),rgba(2, 105, 2, 0.842),rgb(2, 114, 2));
+body{background-image:linear-gradient(to right,darkred,rgba(139, 0, 0, 0.753),rgba(139, 0, 0, 0.473),rgba(139, 0, 0, 0.329),rgba(0, 0, 255, 0.288),rgba(0, 0, 255, 0.527),rgba(0, 0, 255, 0.795),blue);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -30,7 +30,10 @@ nav ul li a:hover { background-color:orange; color: green;}
 
 p{text-align: center; padding: 15px;}
 
-main{ width: 80%; background-color: white; margin: 10px auto; padding-bottom: 20px;}
+main{
+    width: 80%; max-width: 700px; margin: 10px auto; background-color: white;
+      text-align: center; padding: 15px; border-radius: 10px;
+       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.788);}
 main img { width: 80%; max-width: 400px; display: block; margin: 10px auto 0;}
 
 
