@@ -33,6 +33,7 @@ p{text-align: center; padding: 15px;}
     /* fim do menu de navegação*/
 
 main{text-align: center;}
+main img{width: 70%; max-width: 400px;}
 article{background-color: white;width: 80%; margin: 0px auto;}
 
 
